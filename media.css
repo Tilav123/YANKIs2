@@ -1,0 +1,257 @@
+@media only screen and (max-width: 1280px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .h2_cotigories_text {
+        text-align: center;
+    }
+
+    .cotigorise_box {
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .foot_block * {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .h3_contact {
+        margin-left: 0px;
+    }
+
+    .link {
+        padding: 0;
+    }
+
+    .link2 {
+        padding: 0;
+    }
+}
+
+.menu {
+    display: none;
+}
+
+.input {
+    width: 600px;
+    height: 50px;
+    border: 0.5px solid #252525;
+    color: rgba(37, 37, 37, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 880px) {
+    footer {
+        gap: 40px;
+        height: 450px;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+    .del {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .nav {
+        width: 80px;
+    }
+
+    .nav a {
+        display: none;
+    }
+}
+
+.btn-box {
+    gap: 20px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 680px) {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .promo{
+        background-image: url(./img/Yanki\ \(51\)\ 1.png);
+    }
+    .foot_block {
+        height: fit-content;
+        width: 50%;
+        text-align: center;
+    }
+    .svg_ins_teleg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cotigories_item {
+        width: 165px;
+        height: 230px;
+    }
+
+    .yuki {
+        width: 79px;
+        height: 20px;
+    }
+
+    .promo {
+        height: 667px;
+    }
+    .p_text_btn{
+        padding: 0 25px;
+    }
+
+    .cotigorise_box {
+        gap: 5px;
+    }
+
+    .middle-box {
+        margin-top: 225px;
+
+    }
+
+    .text {
+        margin-top: 60px;
+        color: #252525;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .cotigories_item h3 {
+        display: flex;
+        width: 100%;
+        padding: 0px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        background: rgba(224, 190, 162, 0.75);
+        backdrop-filter: blur(3px);
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .h2_cotigories_text {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        color: #252525;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .btn-box {
+        gap: 15px;
+        margin: 30px auto 0;
+    }
+
+    .input {
+        width: 335px;
+        height: 40px;
+    }
+
+    button {
+        width: 335px;
+        padding: 0px;
+        height: 40px;
+    }
+
+    .p_text_btn {
+        font-size: 14px;
+    }
+
+    .delete {
+        display: none;
+    }
+
+    .h1_text {
+        font-size: 32px;
+    }
+
+    .a {
+        font-size: 14px;
+    }
+    footer {
+        width: 100%;
+        gap: 40px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .input {
+        width: 295px;
+        height: 40px;
+    }
+    .nav {
+        width: 60px;
+    }
+    .yuki{
+        width: 50px;
+    }
+
+    button {
+        width: 295px;
+        padding: 0px;
+        height: 40px;
+    }
+
+}
+.menu{
+    transition: 0.3s;
+}
+.menu:active{
+    transform: scale(0.9);
+}
+.icon-left-top:active{
+    transform: scale(0.9);
+}
+.icon-left-top:active{
+    transition: 0.3s;
+}
+.yuki:active{
+    transform: scale(0.9);
+}
+.yuki{
+    transition: 0.3s;
+}
+a:active{
+    transform: scale(0.9);
+}
+a{
+    transition: 0.3s;
+}
